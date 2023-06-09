@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1aF --group-directories-first --sort=version | tr '\n' ',' | sed 's/,$/\n/'
